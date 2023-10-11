@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: lightblue; /* Fallback background color */
+}
+
+
+
+#game-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+
+#instructions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+}
+
